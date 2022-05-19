@@ -7,7 +7,7 @@ Black rectangles:       hells       [reward = -1].
 Yellow bin circle:      paradise    [reward = +1].
 All other states:       ground      [reward = 0].
 """
-from debug import *
+
 from Env import Env
 from RL import QLearning
 import random
@@ -29,6 +29,7 @@ debug_env= False
 debug_bus = False
 debug_stop= False
 #debug=True
+
 
 def action_str2num(action_str):
     pass
@@ -202,5 +203,9 @@ if  __name__ == "__main__":
     plot_spacing(method2,bus_num,env2.bus_list,RL,max_timestep)
     plot_accu(method2,bus_stop_num,env.bus_stop_list)
 
+#plot_arrival(method, bus_stop_num, env.bus_stop_list)
+    #plot_arrival(method,bus_stop_num,env.bus_stop_list)
+
+#   Toload the parameter:    Qrecord=pd.read_csv(str(0)+".csv")
 
 
