@@ -1,0 +1,4 @@
+bus       | 13:12:38 | D:\OpenSource_Porjects\BusBunching\src\debug.py | 135 | this is test 10
+bus       | 13:12:43 | D:\OpenSource_Porjects\BusBunching\src\debug.py | 135 | this is test 10
+env       | 13:13:29 | D:\OpenSource_Porjects\BusBunching\src\debug.py | 136 | this is test 10
+passenger | 13:13:47 | D:\OpenSource_Porjects\BusBunching\src\debug.py | 136 | this is test 10
